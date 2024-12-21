@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ategec website</title>
+    <link rel="stylesheet" href="../assets/css/output.css">
+</head>
+<body>
+    <header  class="p-1 fixed shadow-md  z-50 w-full bg-yellow-50">
+        <section>
+            <!-- this div is disgn only mobile devices -->
+            <div data-menu="items" class="flex justify-between xl:hidden px-4 py-4">
+                <div class="w-10 h-10">
+                    <img class="w-full h-full object-fit object-center" src="./../assets/images/log.jpg.jpg " alt="agetec logo">
+                </div>
+                <div >
+                    <i id="show-menu-btn" class="bi bi-menu-button-wide"></i>
+                    
+                </div>
+            </div>
+            <nav  data-menu="items" class="xl:flex items-center justify-between  px-5">
+                <!-- this div is the logo just for the large screen -->
+                <div  class="hidden xl:block">
+                    <img class="h-16 w-16 rounded-full" src="./../assets/images/log.jpg" alt="agetec logo">
+                </div>
+                <ul id="id-menu"  class="max-lg:space-y-5 xl:flex gap-6 text-[16px]  hidden font-bold">
+                    
+                    <li class="xl:hover:underline underline-offset-4 transition-all hover:text-gray-500 " ><a  href="#Home">Acceuil</a></li>
+                    <li class="xl:hover:underline underline-offset-4 transition-all hover:text-gray-500 " ><a  href="#blog">Blog</a></li> 
+                    <li class="xl:hover:underline underline-offset-4 transition-all hover:text-gray-500 " ><a  href="#Communauté">Communauté</a></li>
+                    <li class="xl:hover:underline underline-offset-4 transition-all hover:text-gray-500 "><a   href="#services">Nos services</a></li>
+                    <li class="xl:hover:underline underline-offset-4 transition-all hover:text-gray-500 " ><a  href="#Evenements">Evenements</a></li>
+                    <li class="xl:hover:underline underline-offset-4 transition-all hover:text-gray-500 " ><a  href="#Apropos">A propos</a></li>
+                    <li class="xl:hover:underline underline-offset-4 transition-all hover:text-gray-500 " ><a  href="#contact">Contact</a></li>
+                </ul> 
+            </nav>
+        </section>
+        
+    </header>
+    <main>
+        <section id="acceuil" class="flex flex-row justify-center  items-center h-screen  text-center">
+            <div class=" space-y-6 text-wrap break-words px-4">
+                <h1 id="main-header" class="lg:text-5xl text-2xl font-bold text-white">
+                   
+                </h1>
+                <h3 id="effects" class="text-gray-50 text-xl font-bold">
+                    Implementer les derniéres technologies en matiére de constrction dans vos projets avec <span class="text-yellow-500">NCJ </span>
+                </h3>
+                <p id="btn-email"  class="border transition-all border-yellow-600 bg-yellow-600 hover:bg-yellow-950 hover:border-yellow-950 text-white p-2 rounded inline-block">
+                    <a href="mailto:bankaiye237@gmail.com" class="">Contactez-Nous</a>
+                </p>
+            </div>
+        </section>
+        <!-- about us section -->
+        <section id="Apropos" class="my-10   p-5">
+            <h1 class="font-bold text-sm uppercase text-center underline">
+                A propos de nous 
+            </h1>
+            <div class="lg:flex flex-row-reverse justify-evenly max-lg:space-y-4 my-4">
+                <div class="h-36 lg:h-[50vh] w-auto ">
+                    <img class="h-36 lg:h-[50vh] w-auto max-lg:m-auto object-contain object-center rounded-xl" src="../assets/images/log.jpg" alt="">
+                </div>
+                <div class="basis-3/5  lg:text-center ">
+                   <div>
+                        <h2 class="font-bold lg:text-3xl ">
+                            Nous fournissons tout les services dans le domaine de la construction
+                        </h2>
+                        <hr>
+                        <p class="text-gray-500">
+                            NCJ Construction, fort de ses 5 années d'expérience et de ses nombreux projets réalisés avec succès, est votre partenaire de confiance dans le 
+                            domaine de la construction. Nous allions expertise et innovation pour offrir 
+                            des solutions de construction sur mesure qui répondent aux besoins spécifiques de nos clients.
+                            Chaque projet est pour nous une opportunité de démontrer notre engagement envers la qualité, 
+                            la rapidité et la satisfaction client. Avec une équipe dédiée de professionnels passionnés,
+                            nous transformons vos rêves en réalité, en respectant les normes les plus strictes et 
+                            en utilisant les technologies les plus avancées. Faites confiance à NCJ Construction 
+                            pour bâtir l'avenir avec vous, aujourd'hui et demain.
+                        </p>
+                   </div>
+                    <div class="lg:flex flex-wrap max-lg:space-y-3 text-justify gap-4 text-sm">
+                        <div class="flex-grow lg:basis-1/3">
+                            <h3 class="text-center  font-bold uppercase ">Association certifiée</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid molestiae perspiciatis iusto.
+                                 Quos officia quo officiis libero, quia debitis? Numquam, 
+                                neque quam odit ad necessitatibus voluptas corporis repudiandae laborum voluptates.
+                            </p>
+                        </div>
+                        <div class="flex-grow lg:basis-1/3">
+                            <h3 class="text-center  font-bold uppercase ">Notre expérience</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid molestiae perspiciatis iusto.
+                                 Quos officia quo officiis libero, quia debitis? Numquam, 
+                                neque quam odit ad necessitatibus voluptas corporis repudiandae laborum voluptates.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </section>
+        <!-- our fondation section -->
+        <section id="Apropos" class="my-10   p-5">
+            <h1 class="font-bold text-sm uppercase text-center underline">
+                Notre Association
+            </h1>
+            <div class="lg:flex  justify-evenly max-lg:space-y-4 my-4">
+               <div class="grid grid-cols-2 gap-1">
+                    <div class="h-36 lg:h-40  mt-2  ">
+                        <img  class=" border-emerald-100 border-4 h-36 lg:h-40 w-40  object-contain object-center rounded-sm" src="../assets/images/download (1).jpeg" alt="">
+                    </div>
+                    <div class="h-36 lg:h-40    ">
+                        <img  class=" border-emerald-100 border-4 h-36 lg:h-40 w-40   object-contain object-center rounded-sm" src="../assets/images/association.webp" alt="">
+                    </div>
+                    <div class="h-36 lg:h-40   mt-2  ">
+                        <img  class=" border-emerald-100 border-4 h-36 lg:h-40 w-40  object-contain object-center rounded-sm" src="../assets/images/download.jpeg" alt="">
+                    </div>
+                    <div class="h-36 lg:h-40    ">
+                        <img  class=" border-emerald-100 border-4 h-36 lg:h-40 w-40  object-contain object-center rounded-sm" src="../assets/images/log.jpg" alt="">
+                    </div>
+               </div>
+                <div class="basis-3/5  lg:text-center ">
+                   <div>
+                        <h2 class="font-bold lg:text-3xl ">
+                            Votre soutient nous permet de rester focus sur nos objectifs
+                        </h2>
+                        <hr>
+                        <p class="text-gray-500">
+                           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum architecto, 
+                           iste illo praesentium officiis tenetur soluta suscipit 
+                           accusantium ut beatae omnis odit ea consectetur error veritatis fugiat totam exercitationem dolor.
+                        </p>
+                   </div>
+                    <div class="lg:flex flex-wrap max-lg:space-y-3 text-justify gap-4 text-sm">
+                        <div class="flex-grow lg:basis-1/3">
+                            <h3 class="text-center  font-bold uppercase ">Association </h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid molestiae perspiciatis iusto.
+                                 Quos officia quo officiis libero, quia debitis? Numquam, 
+                                neque quam odit ad necessitatibus voluptas corporis repudiandae laborum voluptates.
+                            </p>
+                        </div>
+                        <div class="flex-grow lg:basis-1/3">
+                            <h3 class="text-center  font-bold uppercase ">Notre vision</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid molestiae perspiciatis iusto.
+                                 Quos officia quo officiis libero, quia debitis? Numquam, 
+                                neque quam odit ad necessitatibus voluptas corporis repudiandae laborum voluptates.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="self-start my-4">
+                        <button class="bg-emerald-600 text-white capitalize rounded-sm p-2 ">
+                            faire un don
+                        </button>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <!-- Our cause -->
+        <Section class="my-8  px-2 bg-gray-50 lg:px-20 lg:pt-10 pt-5">
+            <h1 class="capitalize underline font-bold   mb-3 text-center">
+               Notre cause
+            </h1>
+            <h2 class="capitalize text-3xl font-bold   mb-3 text-center">
+              Nos recentes actions
+            </h2>
+            <p class="text-gray-400 text-center mt-3 mb-6 lg:mx-36">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, aspernatur necessitatibus fugit
+                 exercitationem esse veniam rem asperiores voluptatum eligendi 
+                earum dicta corrupti, optio non iure nobis pariatur repellat sunt perspiciatis.
+            </p>
+            <div class="xl:flex gap-5 max-lg:space-y-3 ">
+                <!-- membership container -->
+                <div  class="space-y-3 md:max-xl:flex gap-5 basis-1/3 shadow-xl p-2">
+                    <div class="h-56 w-full">
+                        <img class="h-full w-full rounded object-cover object-right-top" src="../assets/images/bg.jpeg" alt="">
+                    </div>
+                    
+                    <div class="space-y-4 self-center ">
+                        <div class="">
+                            <!-- slug word(s) -->
+                            <p class="text-emerald-400">Travail</p>
+                            <!-- div title -->
+                            <h3 class="font-semibold text-xl">Assise sur l'amélioration des conditions de travail</h3>
+                        </div>
+                        <p class="text-gray-700">
+                            En tant que fondateur de NCJ Construction, j'ai eu le privilège de diriger
+                             une équipe de professionnels dévoués qui partagent ma passion pour l'excellence.
+                        </p>
+                        <!-- social media link container -->
+                        <div class=" text-center mt-3 ">
+                            <progress class="w-full" max="100" value="80"></progress>
+                        </div>
+                        <div class="flex justify-between">
+                            <div>
+                                <p>Fond recolté: <span class="text-emerald-700">200$</span></p>
+                            </div>
+                            <div>
+                                <p>Fond attendu: <span class="text-emerald-700">250$</span></p>
+
+                            </div>
+                        </div>
+                        <div class="self-start my-4">
+                            <button class="bg-emerald-600 text-white capitalize rounded-sm p-2 ">
+                                faire un don
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div  class="space-y-3 md:max-xl:flex gap-5 basis-1/3 shadow-xl p-2">
+                    <div class="h-56 w-full">
+                        <img class="h-full w-full rounded object-cover object-right-top" src="../assets/images/bg.jpeg" alt="">
+                    </div>
+                    
+                    <div class="space-y-4 self-center ">
+                        <div class="">
+                            <!-- slug word(s) -->
+                            <p class="text-emerald-400">Travail</p>
+                            <!-- div title -->
+                            <h3 class="font-semibold text-xl">Assise sur l'amélioration des conditions de travail</h3>
+                        </div>
+                        <p class="text-gray-700">
+                            En tant que fondateur de NCJ Construction, j'ai eu le privilège de diriger
+                             une équipe de professionnels dévoués qui partagent ma passion pour l'excellence.
+                        </p>
+                        <!-- social media link container -->
+                        <div class=" text-center mt-3 ">
+                            <progress class="w-full" max="100" value="80"></progress>
+                        </div>
+                        <div class="flex justify-between">
+                            <div>
+                                <p>Fond recolté: <span class="text-emerald-700">200$</span></p>
+                            </div>
+                            <div>
+                                <p>Fond attendu: <span class="text-emerald-700">250$</span></p>
+
+                            </div>
+                        </div>
+                        <div class="self-start my-4">
+                            <button class="bg-emerald-600 text-white capitalize rounded-sm p-2 ">
+                                faire un don
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div  class="space-y-3 md:max-xl:flex gap-5 basis-1/3 shadow-xl p-2">
+                    <div class="h-56 w-full">
+                        <img class="h-full w-full rounded object-cover object-right-top" src="../assets/images/bg.jpeg" alt="">
+                    </div>
+                    
+                    <div class="space-y-4 self-center ">
+                        <div class="">
+                            <!-- slug word(s) -->
+                            <p class="text-emerald-400">Travail</p>
+                            <!-- div title -->
+                            <h3 class="font-semibold text-xl">Assise sur l'amélioration des conditions de travail</h3>
+                        </div>
+                        <p class="text-gray-700">
+                            En tant que fondateur de NCJ Construction, j'ai eu le privilège de diriger
+                             une équipe de professionnels dévoués qui partagent ma passion pour l'excellence.
+                        </p>
+                        <!-- social media link container -->
+                        <div class=" text-center mt-3 ">
+                            <progress class="w-full" max="100" value="80"></progress>
+                        </div>
+                        <div class="flex justify-between">
+                            <div>
+                                <p>Fond recolté: <span class="text-emerald-700">200$</span></p>
+                            </div>
+                            <div>
+                                <p>Fond attendu: <span class="text-emerald-700">250$</span></p>
+
+                            </div>
+                        </div>
+                        <div class="self-start my-4">
+                            <button class="bg-emerald-600 text-white capitalize rounded-sm p-2 ">
+                                faire un don
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </Section>
+        <!-- Our direction -->
+        <section id="Statistique" class="lg:px-20 lg:pt-10 pt-5 ">
+            <h1 class="uppercase underline font-bold text-3xl  mb-3 text-center">Statistiques</h1>
+            <div class="xl:flex  max-lg:space-y-3 text-gray-500 gap-3  text-center">
+                <div class="hover:bg-green-200 p-10 bg-green-100 flex-grow transition-all">
+                    <svg class="w-16 h-16 m-auto" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24"><path fill="currentColor" d="M7.5 11.5v-2h9v1.75h-.75c-.41 0-.798.09-1.147.25H7.5ZM18 8.75v2.5h1.25c.665 0 1.274.236 1.75.629V6.732A2 2 0 0 0 20 3H4a2 2 0 0 0-1 3.732V20.25c0 .414.336.75.75.75H6v-5.25a.75.75 0 0 1 .75-.75h4c.23 0 .437.104.574.268A2.503 2.503 0 0 1 13 14.05V14c0-.353.066-.69.188-1H6.75a.75.75 0 0 1-.75-.75v-3.5A.75.75 0 0 1 6.75 8h10.5a.75.75 0 0 1 .75.75ZM3.5 5a.5.5 0 0 1 .5-.5h16a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.5-.5ZM10 16.5V21H7.5v-4.5H10Zm4-1.5h-.5a1.5 1.5 0 0 0-1.5 1.5V18h2.5v-.25a.75.75 0 0 1 1.5 0V18h3v-.25a.75.75 0 0 1 1.5 0V18H23v-1.5a1.5 1.5 0 0 0-1.5-1.5H21v-1a1.75 1.75 0 0 0-1.75-1.75h-3.5A1.75 1.75 0 0 0 14 14v1Zm1.5-1a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v1h-4v-1ZM12 21.5v-2h2.5v.75a.75.75 0 0 0 1.5 0v-.75h3v.75a.75.75 0 0 0 1.5 0v-.75H23v2a1.5 1.5 0 0 1-1.5 1.5h-8a1.5 1.5 0 0 1-1.5-1.5Z"/></svg></p>
+                    <p class="text-yellow-300 underline underline-offset-8">5</p>
+                    <p class="">ans sur le marché</p>
+                </div>
+                <div class="hover:bg-emerald-200 p-10 bg-emerald-100 flex-grow transition-all">
+                    <svg class="w-16 h-16 m-auto" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24"><path fill="currentColor" d="M7.5 11.5v-2h9v1.75h-.75c-.41 0-.798.09-1.147.25H7.5ZM18 8.75v2.5h1.25c.665 0 1.274.236 1.75.629V6.732A2 2 0 0 0 20 3H4a2 2 0 0 0-1 3.732V20.25c0 .414.336.75.75.75H6v-5.25a.75.75 0 0 1 .75-.75h4c.23 0 .437.104.574.268A2.503 2.503 0 0 1 13 14.05V14c0-.353.066-.69.188-1H6.75a.75.75 0 0 1-.75-.75v-3.5A.75.75 0 0 1 6.75 8h10.5a.75.75 0 0 1 .75.75ZM3.5 5a.5.5 0 0 1 .5-.5h16a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.5-.5ZM10 16.5V21H7.5v-4.5H10Zm4-1.5h-.5a1.5 1.5 0 0 0-1.5 1.5V18h2.5v-.25a.75.75 0 0 1 1.5 0V18h3v-.25a.75.75 0 0 1 1.5 0V18H23v-1.5a1.5 1.5 0 0 0-1.5-1.5H21v-1a1.75 1.75 0 0 0-1.75-1.75h-3.5A1.75 1.75 0 0 0 14 14v1Zm1.5-1a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v1h-4v-1ZM12 21.5v-2h2.5v.75a.75.75 0 0 0 1.5 0v-.75h3v.75a.75.75 0 0 0 1.5 0v-.75H23v2a1.5 1.5 0 0 1-1.5 1.5h-8a1.5 1.5 0 0 1-1.5-1.5Z"/></svg></p>
+                    <p class="text-yellow-300 underline underline-offset-8">5</p>
+                    <p class="">ans sur le marché</p>
+                </div>
+                <div class="hover:bg-emerald-200 p-10 bg-emerald-100 flex-grow transition-all">
+                    <svg class="w-16 h-16 m-auto" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24"><path fill="currentColor" d="M7.5 11.5v-2h9v1.75h-.75c-.41 0-.798.09-1.147.25H7.5ZM18 8.75v2.5h1.25c.665 0 1.274.236 1.75.629V6.732A2 2 0 0 0 20 3H4a2 2 0 0 0-1 3.732V20.25c0 .414.336.75.75.75H6v-5.25a.75.75 0 0 1 .75-.75h4c.23 0 .437.104.574.268A2.503 2.503 0 0 1 13 14.05V14c0-.353.066-.69.188-1H6.75a.75.75 0 0 1-.75-.75v-3.5A.75.75 0 0 1 6.75 8h10.5a.75.75 0 0 1 .75.75ZM3.5 5a.5.5 0 0 1 .5-.5h16a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.5-.5ZM10 16.5V21H7.5v-4.5H10Zm4-1.5h-.5a1.5 1.5 0 0 0-1.5 1.5V18h2.5v-.25a.75.75 0 0 1 1.5 0V18h3v-.25a.75.75 0 0 1 1.5 0V18H23v-1.5a1.5 1.5 0 0 0-1.5-1.5H21v-1a1.75 1.75 0 0 0-1.75-1.75h-3.5A1.75 1.75 0 0 0 14 14v1Zm1.5-1a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v1h-4v-1ZM12 21.5v-2h2.5v.75a.75.75 0 0 0 1.5 0v-.75h3v.75a.75.75 0 0 0 1.5 0v-.75H23v2a1.5 1.5 0 0 1-1.5 1.5h-8a1.5 1.5 0 0 1-1.5-1.5Z"/></svg></p>
+                    <p class="text-yellow-300 underline underline-offset-8">5</p>
+                    <p class="">ans sur le marché</p>
+                </div>
+                <div class="hover:bg-emerald-200 p-10 bg-emerald-100 flex-grow transition-all">
+                    <svg class="w-16 h-16 m-auto" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24"><path fill="currentColor" d="M7.5 11.5v-2h9v1.75h-.75c-.41 0-.798.09-1.147.25H7.5ZM18 8.75v2.5h1.25c.665 0 1.274.236 1.75.629V6.732A2 2 0 0 0 20 3H4a2 2 0 0 0-1 3.732V20.25c0 .414.336.75.75.75H6v-5.25a.75.75 0 0 1 .75-.75h4c.23 0 .437.104.574.268A2.503 2.503 0 0 1 13 14.05V14c0-.353.066-.69.188-1H6.75a.75.75 0 0 1-.75-.75v-3.5A.75.75 0 0 1 6.75 8h10.5a.75.75 0 0 1 .75.75ZM3.5 5a.5.5 0 0 1 .5-.5h16a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.5-.5ZM10 16.5V21H7.5v-4.5H10Zm4-1.5h-.5a1.5 1.5 0 0 0-1.5 1.5V18h2.5v-.25a.75.75 0 0 1 1.5 0V18h3v-.25a.75.75 0 0 1 1.5 0V18H23v-1.5a1.5 1.5 0 0 0-1.5-1.5H21v-1a1.75 1.75 0 0 0-1.75-1.75h-3.5A1.75 1.75 0 0 0 14 14v1Zm1.5-1a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v1h-4v-1ZM12 21.5v-2h2.5v.75a.75.75 0 0 0 1.5 0v-.75h3v.75a.75.75 0 0 0 1.5 0v-.75H23v2a1.5 1.5 0 0 1-1.5 1.5h-8a1.5 1.5 0 0 1-1.5-1.5Z"/></svg></p>
+                    <p class="text-yellow-300 underline underline-offset-8">5</p>
+                    <p class="">ans sur le marché</p>
+                </div>
+            </div>
+        </section>
+        <!-- our projects section -->
+        <Section class="my-8  px-2 bg-gray-50 lg:px-20 lg:pt-10 pt-5">
+            <h1 class="capitalize underline font-bold   mb-3 text-center">
+              Nos projets
+            </h1>
+            <h2 class="capitalize text-3xl font-bold   mb-3 text-center">
+              Nos projets les plus recents
+            </h2>
+            <p class="text-gray-400 text-center mt-3 mb-6 lg:mx-36">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, aspernatur necessitatibus fugit
+                 exercitationem esse veniam rem asperiores voluptatum eligendi 
+                earum dicta corrupti, optio non iure nobis pariatur repellat sunt perspiciatis.
+            </p>
+            <div class="xl:flex gap-5 max-lg:space-y-3 ">
+                <!-- projects container -->
+                <div  class="space-y-3 md:max-xl:flex gap-5 basis-1/3 shadow-xl p-2">
+                    <div class="h-56 w-full">
+                        <img class="h-full w-full rounded object-cover object-right-top" src="../assets/images/bg.jpeg" alt="">
+                    </div>
+                    
+                    <div class="space-y-4 self-center ">
+                        <div class="">
+                            <!-- adress& datetime -->
+                            <p class=""><span class="text-emerald-400"></span>25 may 2025 <span class="text-emerald-400"> Douala</span></p>
+                            <!-- div title -->
+                            <h3 class="font-semibold text-xl">Construction d'un R+4 </h3>
+                        </div>
+                        <p class="text-gray-700">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis neque quod voluptatibus nam quos vitae impedit placeat est quae facilis,
+                             repellat temporibus obcaecati officiis molestiae consequuntur aut et laboriosam! Deserunt?
+                        <!-- social media link container -->
+                      
+                        
+                               <p><span class="font-bold">Durée du projet</span>: 2 ans</p>
+                               <p class="text-emerald-800 font-bold">Budget: 50,000$</p>
+                            
+                        
+                        <div class="self-start my-4">
+                            <button class="bg-emerald-600 text-white capitalize rounded-sm p-2 ">
+                                Savoir plus
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div  class="space-y-3 md:max-xl:flex gap-5 basis-1/3 shadow-xl p-2">
+                    <div class="h-56 w-full">
+                        <img class="h-full w-full rounded object-cover object-right-top" src="../assets/images/bg.jpeg" alt="">
+                    </div>
+                    
+                    <div class="space-y-4 self-center ">
+                        <div class="">
+                            <!-- adress& datetime -->
+                            <p class=""><span class="text-emerald-400"></span>25 may 2025 <span class="text-emerald-400"> Douala</span></p>
+                            <!-- div title -->
+                            <h3 class="font-semibold text-xl">Construction d'un R+4 </h3>
+                        </div>
+                        <p class="text-gray-700">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis neque quod voluptatibus nam quos vitae impedit placeat est quae facilis,
+                             repellat temporibus obcaecati officiis molestiae consequuntur aut et laboriosam! Deserunt?
+                        <!-- social media link container -->
+                      
+                        
+                               <p><span class="font-bold">Durée du projet</span>: 2 ans</p>
+                               <p class="text-emerald-800 font-bold">Budget: 50,000$</p>
+                            
+                        
+                        <div class="self-start my-4">
+                            <button class="bg-emerald-600 text-white capitalize rounded-sm p-2 ">
+                                Savoir plus
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div  class="space-y-3 md:max-xl:flex gap-5 basis-1/3 shadow-xl p-2">
+                    <div class="h-56 w-full">
+                        <img class="h-full w-full rounded object-cover object-right-top" src="../assets/images/bg.jpeg" alt="">
+                    </div>
+                    
+                    <div class="space-y-4 self-center ">
+                        <div class="">
+                            <!-- adress& datetime -->
+                            <p class=""><span class="text-emerald-400"></span>25 may 2025 <span class="text-emerald-400"> Douala</span></p>
+                            <!-- div title -->
+                            <h3 class="font-semibold text-xl">Construction d'un R+4 </h3>
+                        </div>
+                        <p class="text-gray-700">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis neque quod voluptatibus nam quos vitae impedit placeat est quae facilis,
+                             repellat temporibus obcaecati officiis molestiae consequuntur aut et laboriosam! Deserunt?
+                        <!-- social media link container -->
+                      
+                        
+                               <p><span class="font-bold">Durée du projet</span>: 2 ans</p>
+                               <p class="text-emerald-800 font-bold">Budget: 50,000$</p>
+                            
+                        
+                        <div class="self-start my-4">
+                            <button class="bg-emerald-600 text-white capitalize rounded-sm p-2 ">
+                                Savoir plus
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </Section>
+        <!-- gallery section -->
+        
+        <section id="gallery" class="text-center p-2">
+            <h1 class="font-bold text-3xl">
+                Nos projets Creatifs
+            </h1>
+                <nav class="my-5 font-bold">
+                    <ul  class="text-gray-400 justify-center items-center flex gap-4 flex-wrap">
+                        <li><button type="button" class="menu-loader underliner" href="#">All</button ></li>
+                        <li><button type="button" class="menu-loader" href="#">Rendu 3D</button ></li>
+                        <li><button type="button" class="menu-loader" href="#">Notre équipe</button ></li>
+                        <li><button type="button" class="menu-loader" href="#">Travaux construction</button ></li>
+                    </ul>
+                </nav>
+                <!-- image data block -->
+                <div id="menu-loader-container" class="h-screen gap-2 grid grid-cols-3 grid-rows-6">
+                    <a  href="../assets/images/construction/13.jpg" class=" hover:scale-105 transition-all rounded row-span-2 "><img class="rounded-2xl w-full h-full object-cover" src="../assets/images/bg.jpeg" alt=""></a>
+                    <a href="../assets/images/construction/17.jpg" class=" hover:scale-105 transition-all  rounded   "><img class="rounded-2xl w-full h-full object-cover" src="../assets/images/bg.jpeg" alt=""></a>
+                    <a href="../assets/images/construction/20.jpg" class=" hover:scale-105 transition-all  rounded  row-span-2"><img class="rounded-2xl w-full h-full object-cover" src="../assets/images/bg.jpeg" alt=""></a>
+                    <a href="../assets/images/3d/4.jpg" class=" hover:scale-105 transition-all  rounded row-span-2"><img class="rounded-2xl w-full h-full object-cover" src="../assets/images/bg.jpeg" alt=""></a>
+                    <a href="../assets/images/3d/4.jpg" class=" hover:scale-105 transition-all  rounded" ><img class="rounded-2xl w-full h-full object-cover" src="../assets/images/bg.jpeg" alt=""></a>
+                    <a href="../assets/images/construction/5.jpg" class=" hover:scale-105 transition-all  rounded  row-span-2"><img class="rounded-2xl w-full h-full object-cover" src="../assets/images/bg.jpeg" alt=""></a>
+                    <a href="../assets/images/construction/21.jpg" class=" hover:scale-105 transition-all  rounded   row-span-2"><img class="rounded-2xl w-full h-full object-cover" src="../assets/images/bg.jpeg" alt=""></a>
+                    <a href="../assets/images/3d/3.jpg" class=" hover:scale-105 transition-all  rounded row-span-2"><img class="rounded-xl w-full h-full object-cover" src="../assets/images/bg.jpeg" alt=""></a>
+                    <a href="../assets/images/construction/2.jpg" class=" hover:scale-105 transition-all  rounded bg-center"><img class="rounded-2xl w-full h-full object-cover" src="../assets/images/bg.jpeg" alt=""></a>
+                </div>
+        </section>
+         <!-- testimonial section -->
+         <section class="bg-emerald-950 my-6 text-white text-center space-y-4 p-5 lg:p-10 relative" >
+            <button class="absolute bg-yellow-400 rounded-full p-2 bottom-36  text-yellow-900 left-0  lg:left-20">left</button>
+            <button class="absolute bg-yellow-400 rounded-full p-2 bottom-36  text-yellow-900 right-0 lg:right-20">right</button>
+            <h1 class="text-center">Nos Témoignages</h1>
+            <h2 class="font-bold text-2xl capitalize text-center">Ce que les gens pensent de nous </h2>
+            <div>
+                <div class="h-20 w-auto flex justify-center items-center">
+                    <img src="../assets/images/bg.jpeg" alt="profile picture" class="h-20 w-auto rounded-full ">
+                </div>
+                <p class="font-bold">Franck Detagne Kengne</p>
+                <p class="text-gray-400  mx-10 lg:mx-56">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex quia cumque suscipit velit maiores, numquam praesentium, atque neque dolore odio iure deserunt culpa magni? 
+                    Odio necessitatibus deleniti architecto sapiente voluptatem!
+                </p>
+            </div>
+         </section>
+         <!-- our blog articles -->
+         <Section class="my-8  px-2 bg-gray-50 lg:px-20 lg:pt-10 pt-5">
+            <h1 class="capitalize underline font-bold   mb-3 text-center">
+              Lire Nos Articles
+            </h1>
+            <h2 class="capitalize text-3xl font-bold   mb-3 text-center">
+              Lisez nos derniers articles
+            </h2>
+            <p class="text-gray-400 text-center mt-3 mb-6 lg:mx-36">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, aspernatur necessitatibus fugit
+                 exercitationem esse veniam rem asperiores voluptatum eligendi 
+                earum dicta corrupti, optio non iure nobis pariatur repellat sunt perspiciatis.
+            </p>
+            <div class="xl:flex gap-5 max-lg:space-y-3 ">
+                <!-- projects container -->
+                <div  class="space-y-3 md:max-xl:flex gap-5 basis-1/3 shadow-xl p-2">
+                    <div class="h-56 w-full">
+                        <img class="h-full w-full rounded object-cover object-right-top" src="../assets/images/bg.jpeg" alt="">
+                    </div>
+                    
+                    <div class="space-y-4 self-center ">
+                        <div class="">
+                            <!-- adress& datetime -->
+                            <div class="flex justify-between">
+                                <p><span class="text-emerald-400"></span>25 may 2025 </p>
+                                <p><span class="text-emerald-400"> El mara</span></p>
+                            </div>
+                            <!-- div title -->
+                            <h3 class="font-semibold text-xl">Comment dessiner proprement sur autocad</h3>
+                        </div>
+                        <p class="text-gray-700">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis neque quod voluptatibus nam quos vitae impedit placeat est quae facilis,
+                             repellat temporibus obcaecati officiis molestiae consequuntur aut et laboriosam! Deserunt?
+                        <!-- social media link container -->
+                      
+                        <div class="self-start my-4">
+                            <button class="bg-emerald-600 text-white capitalize rounded-sm p-2 ">
+                                Lire plus
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div  class="space-y-3 md:max-xl:flex gap-5 basis-1/3 shadow-xl p-2">
+                    <div class="h-56 w-full">
+                        <img class="h-full w-full rounded object-cover object-right-top" src="../assets/images/bg.jpeg" alt="">
+                    </div>
+                    
+                    <div class="space-y-4 self-center ">
+                        <div class="">
+                            <!-- adress& datetime -->
+                            <div class="flex justify-between">
+                                <p><span class="text-emerald-400"></span>25 may 2025 </p>
+                                <p><span class="text-emerald-400"> El mara</span></p>
+                            </div>
+                            <!-- div title -->
+                            <h3 class="font-semibold text-xl">Construction d'un R+4 </h3>
+                        </div>
+                        <p class="text-gray-700">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis neque quod voluptatibus nam quos vitae impedit placeat est quae facilis,
+                             repellat temporibus obcaecati officiis molestiae consequuntur aut et laboriosam! Deserunt?
+                        <!-- social media link container -->
+                      
+                        
+                        <div class="self-start my-4">
+                            <button class="bg-emerald-600 text-white capitalize rounded-sm p-2 ">
+                                Lire plus
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div  class="space-y-3 md:max-xl:flex gap-5 basis-1/3 shadow-xl p-2">
+                    <div class="h-56 w-full">
+                        <img class="h-full w-full rounded object-cover object-right-top" src="../assets/images/bg.jpeg" alt="">
+                    </div>
+                    
+                    <div class="space-y-4 self-center ">
+                        <div class="">
+                            <!-- adress& datetime -->
+                            <div class="flex justify-between">
+                                <p><span class="text-emerald-400"></span>25 may 2025 </p>
+                                <p><span class="text-emerald-400"> El mara</span></p>
+                            </div>
+                            <!-- div title -->
+                            <h3 class="font-semibold text-xl">Construction d'un R+4 </h3>
+                        </div>
+                        <p class="text-gray-700">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis neque quod voluptatibus nam quos vitae impedit placeat est quae facilis,
+                             repellat temporibus obcaecati officiis molestiae consequuntur aut et laboriosam! Deserunt?
+                        <!-- social media link container -->
+                      
+                        
+                               
+                            
+                        
+                        <div class="self-start my-4">
+                            <button class="bg-emerald-600 text-white capitalize rounded-sm p-2 ">
+                                Lire plus
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </Section>
+         <!-- contact us section -->
+         <section class="lg:px-20 p-5">
+            <h1 class="my-6 text-2xl"><span class="bg-emerald-600 p-1 text-white">Contact</span>Us</h1>
+            <div class="flex gap-5 flex-wrap lg:flex-nowrap ">
+                <!-- that is for the form section -->
+                <div class="basis-2/3 flex-grow">
+                    <form action="{% url '' %} " method="post" class="w-full p-4  " >
+                        <div class="w-full grid grid-cols-2 gap-4">
+                            <div class="w-full col-span-2 sm:col-span-1">
+                                <input type="text" placeholder="Name" class="w-full input-style ">
+                            </div>
+                            <div class="col-span-2 sm:col-span-1">
+                                <input type="email" placeholder="Email" class="input-style w-full ">
+                            </div>
+                            <div class="col-span-2"><input type="text" placeholder="subject" class="input-style w-full"></div>
+                            <div class="col-span-2" >
+                                <textarea name="" id="" placeholder="Type your message" class="input-style w-full" rows="5" ></textarea>
+                            </div>
+                            <div class="col-span-2">
+                                <button type="submit" class="p-2 rounded-md w-full bg-emerald-800 text-white">Send message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <!-- Add a litle description about you or your compagny -->
+                <div class="basis-1/3 text-gray-500 text-sm flex-grow">
+                    <h1 class="mb-4 font-bold text-2xl text-black">Ask how we can help you</h1>
+                    <p class="mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Quis ipsam, nostrum fuga, molestias at reiciendis deserunt amet debitis 
+                        laborum quae delectus nihil accusamus doloribus repellat beatae optio dolores, porro sit.
+                    </p>
+                    
+                    <p >+237692109697</p>
+                    <p class="mb-4">Deido,Acien ises,Cameroun</p>
+                    <div>
+                        <h2 class="text-gray-500 font-bold text-xl my-3">follow on</h2>
+                        <div>
+                            <span class="inline-block h-12 w-6"><a href=""><img class="inline-block" src="../../images/face.png" alt="social media"></a></span>
+                            <span class="inline-block h-12 w-6"><a href=""><img class="inline-block" src="../../images/youtube.png" alt="social media"></a></span>
+                            <span class="inline-block h-12 w-6"><a href=""><img class="inline-block" src="../../images/linkedin.png" alt="social media"></a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+    
+            
+        </section>
+        
+        
+        <footer class="space-y-6  bg-black text-gray-300 p-5 ">
+        
+             <div>
+                <div class="  justify-between flex flex-wrap py-10 lg:flex-nowrap gap-6">
+                    <div class="basis-1/4 max-sm:basis-1/2">
+                        <div class="my-5">
+                            <div data-name="logo" class="h-8 w-[80px] self-center"><img id="profile" src="assets/small_images/lo (Copy).png" alt="logo"></div>
+                        </div>
+                        <p class="text-gray-500 text-sm">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Maiores commodi odit saepe omnis harum tempora totam q
+                        </p>
+                    </div>
+                    <div data-title="blog" class="max-sm:basis-1/4">
+                        <h1 class="text-xl font-bold mb-5">Blog</h1>
+                        <ul class="text-gray-500 text-sm">
+                            <li><a href="#">Travel</a></li>
+                            <li><a href="#">Technology</a></li>
+                            <li><a href="#">Sport</a></li>
+                            <li><a href="#">Healt</a></li>
+                            <li><a href="#">Lifestyle</a></li>
+                            <li><a href="#">Business</a></li>
+                        </ul>
+                    </div>
+                    <div class="quick-links" class="max-sm:basis-1/2">
+                        <h1 class="text-xl font-bold mb-5">Quicks Links</h1>
+                        <ul class="text-gray-500 text-sm">
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Terms and condition</a></li>
+                            <li><a href="#">Support</a></li>
+                            <li><a href="#">Privacy</a></li>
+                        </ul>
+                    </div>
+                    <div data-title="contact" class="">
+                        <h1 class="text-xl font-bold mb-5">Suscribe for the news letter</h1>
+                        <div class="text-gray-500 text-sm">
+                            <input type="email"  class="bg-inherit border p-2 outline-gray-300 rounded " placeholder=" your email"> 
+                            <button type="submit" class="bg-gray-200 text-black p-2 rounded">Suscribe</button>
+                        </div>
+                        <div>
+                            <h2 class="text-gray-500 font-bold text-xl my-3">follow on</h2>
+                            <div>
+                                <span class="inline-block h-12 w-6"><a href="#"><i class="bi bi-whatsapp"></i></a></span>
+                                <span class="inline-block h-12 w-6"><a href="#"><i class="bi bi-facebook"></i></a></span>
+                                <span class="inline-block h-12 w-6"><a href="#"><i class="bi bi-tiktok"></i></a></span>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <hr class="bg-emerald-800">
+                    <div class="py-4">
+                        <p>
+                            Copyrigth &copy; <a class="hover:text-white font-bold" href="https://wa.me/237692109697">Franck Detagne</a> 2024
+                        </p>
+                    </div>
+            </div>
+             </div>
+        </footer>
+    </main>
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>

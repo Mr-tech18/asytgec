@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities{
+    *{
+        scroll-behavior: smooth;
+    }
+    .effects {
+        background-image: linear-gradient(to right, #8d717f,#ffe6cc,#8bc34c,#03fc9d);
+        -webkit-background-clip: text;
+        background-size: 300% 100%;
+        background-position: 0% 0%;
+        font-weight:bolder;
+        animation: gradient-animation 100s linear infinite;
+        color: transparent;
+      }
+      
+      @keyframes gradient-animation {
+        0% { background-position: 0% 25%;
+         }
+         50%{
+            background-position: 100% 50%; 
+         }
+        100% { background-position: -200% 100%; }
+      }
+    #acceuil{
+        background-image: url(./../images/Designer.jpeg);
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: cover;
+      }
+      .input-style{
+        @apply border border-gray-500 p-2 rounded-md bg-emerald-50;
+      }
+
+    }
